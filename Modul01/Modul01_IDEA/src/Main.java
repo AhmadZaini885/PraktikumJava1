@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
+
         String namaDepan = "Ahmad";
         String namaBelakang = " Zaini";
         int usia = 20;
@@ -27,6 +28,5 @@ public class Main {
         for (String nama : namaArray){
             System.out.println(nama);
         }
-
     }
 }
