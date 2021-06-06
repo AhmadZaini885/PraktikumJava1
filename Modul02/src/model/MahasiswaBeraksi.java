@@ -4,6 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
 public class MahasiswaBeraksi {
     public static void main(String[] args) throws ParseException {
 
@@ -15,21 +16,12 @@ public class MahasiswaBeraksi {
         mahasiswa.nama = "Ahmad Zaini";
         mahasiswa.tanggalLahir = simpleDateFormat.parse("07-03-2001");
 
-        System.out.println("Nama  \t\t\t : " + mahasiswa.nama);
-        System.out.println("NPM \t\t\t : " + mahasiswa.npm);
-        System.out.println("Tanggal Lahir \t : " + mahasiswa.tanggalLahir);
-
         mahasiswa.tampilkanAtribut();
         mahasiswa.menyapa();
         System.out.println("Usia : " + mahasiswa.hitungUsia() + " tahun");
 
-        Mahasiswa mahasiswa2 = new Mahasiswa();
-        mahasiswa2.npm = "19630001";
-        mahasiswa2.nama = "Galung";
-        mahasiswa2.tanggalLahir = simpleDateFormat.parse("05-02-2000");
+        Mahasiswa mahasiswa2 = new Mahasiswa("19610511", "amat", "08-08-2000");
+        mahasiswa2.tampilkanAtribut();
 
-        System.out.println("Nama  \t\t\t : " + mahasiswa2.nama);
-        System.out.println("NPM \t\t\t : " + mahasiswa2.npm);
-        System.out.println("Tanggal Lahir \t : " + simpleDateFormat.format(mahasiswa2.tanggalLahir));
     }
 }
