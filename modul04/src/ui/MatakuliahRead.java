@@ -66,7 +66,7 @@ public class MatakuliahRead extends JFrame {
         matakuliahRead.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         matakuliahRead.createUIComponents();
         matakuliahRead.pack();
-        matakuliahRead.setLocation(null);
+        matakuliahRead.setLocationRelativeTo(null);
         matakuliahRead.setVisible(true);
     }
 
