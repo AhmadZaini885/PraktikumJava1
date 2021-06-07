@@ -15,6 +15,8 @@ import java.util.ArrayList;
 public class MatakuliahRead extends JFrame {
     private JPanel panel1;
     private JTable matakuliahTable;
+    private JButton button;
+    private JTextField textField1;
 
 
     private void createUIComponents() {
