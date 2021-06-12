@@ -17,6 +17,10 @@ public class MatakuliahRead extends JFrame {
     private JTable matakuliahTable;
     private JButton button;
     private JTextField textField1;
+    private JButton batalButton;
+    private JButton hapusButton;
+    private JButton tambahButton;
+    private JButton ubahButton;
 
 
     private void createUIComponents() {
